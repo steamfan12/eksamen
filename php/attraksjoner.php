@@ -9,12 +9,9 @@
 <body>
     <h2>Attraksjoner</h2>
     <?php include 'header.php';?>
-<div id="container">
 
-    <div>
+<div id="container">
         <h1>Attraksjonene våre</h1>
-        
-    </div>
     <div>
     <?php 
     include 'config.php';

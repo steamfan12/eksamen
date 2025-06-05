@@ -4,7 +4,7 @@ body{
 h2{
     display: flex;
     justify-content: center;
-     color:darkslateblue;
+    color:darkslateblue;
 }
 
 header{
@@ -34,4 +34,13 @@ text-align: center;
 #login{
     display: flex;
     justify-content: center;
+}
+
+#bilde{
+    display: flex;
+    align-self: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px; 
+    background-color: antiquewhite;
 }
