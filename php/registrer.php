@@ -1,4 +1,8 @@
 <?php
+$seesion_start();
+
+$_SESSION['brukernavn']= $brukernavn;
+
 include 'config.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
