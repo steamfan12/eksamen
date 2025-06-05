@@ -12,5 +12,7 @@
         <h2>Havgløtt camping</h2>
         <?php include 'header.php';?>
     </div>
+
+    <?php include 'config.php';?>
 </body>
 </html>
