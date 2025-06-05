@@ -13,5 +13,7 @@
         <?php include 'header.php';?>
         
     </div>
+
+    <?php include 'config.php';?>
 </body>
 </html>
