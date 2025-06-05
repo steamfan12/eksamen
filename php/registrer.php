@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $stmt->bind_param("ss", $brukernavn, $hash);
             if ($stmt->execute()) {
                 $_SESSION['brukernavn'] = $brukernavn;
-                header("Location: loggetinn.php");
+                header("Location: login.php");
                 exit;
             } else {
                 echo "Noe gikk galt. Vennligst prøv igjen.";
