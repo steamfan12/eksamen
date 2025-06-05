@@ -3,7 +3,7 @@ session_start();
 
 
 include 'config.php';
-include 'header.php';
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $brukernavn = trim($_POST['brukernavn']);
     $passord = $_POST['passord'];
@@ -44,10 +44,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>Registrer</title>
+    
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
     <h2>Registrer deg</h2>
+    <?php include 'header.php';?>
 <div id="register">
     <form method="post" action="">
         <label for="brukernavn">Brukernavn:</label><br>

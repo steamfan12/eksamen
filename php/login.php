@@ -1,7 +1,7 @@
 <?php
 session_start();
 include 'config.php';
-include 'header.php';
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $brukernavn = trim($_POST['brukernavn']);
     $passord = $_POST['passord'];
@@ -33,6 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <div id="login">
     <form method="post">
         <h2>Logg inn</h2>
+        <?php include 'header.php';?>
         <label for="brukernavn">Brukernavn:</label><br>
         <input type="text" name="brukernavn" required><br><br>
         <label for="passord">Passord:</label><br>
