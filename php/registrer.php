@@ -3,7 +3,7 @@ session_start();
 
 
 include 'config.php';
-
+include 'header.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $brukernavn = trim($_POST['brukernavn']);
     $passord = $_POST['passord'];
