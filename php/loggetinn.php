@@ -9,11 +9,11 @@ session_start();
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <?php include 'header.php'?>
     <div id="container">
         <h2>
             Hei <?php echo htmlspecialchars($_SESSION['brukernavn'] ?? ''); ?>, nå er du logget inn.
         </h2>
+           <?php include 'header.php'?>
     </div>
 </body>
 </html>
