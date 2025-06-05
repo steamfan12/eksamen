@@ -11,6 +11,7 @@
     <div id="container">
         <h2>Havgløtt camping</h2>
         <?php include 'header.php';?>
+        
     </div>
 </body>
 </html>
