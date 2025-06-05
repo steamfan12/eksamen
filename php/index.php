@@ -9,26 +9,8 @@
 <body>
 
     <h2>Havgløtt camping</h2>
-    <?php include 'header.php';
-include 'config.php';
-
-// Hent maks id for å kunne velge tilfeldig
-$sql = "SELECT id FROM attraksjoner ORDER BY RAND() LIMIT 1";
-$result = $conn->query($sql);
-$bilde_sti = "";
-
-if ($result && $row = $result->fetch_assoc()) {
-    $id = $row['id'];
-
-    // Hent bildet basert på id
-    $sql2 = "SELECT bilde_sti FROM attraksjoner WHERE id = $id";
-    $res2 = $conn->query($sql2);
-    if ($res2 && $rad = $res2->fetch_assoc()) {
-        $bilde_sti = $rad['bilde_sti'];
-    }
-}
-?>
-
+    <?php include 'header.php';?>
+    
 <div id="container">
     <div>
         <h3>litt info om oss</h3>
