@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-$_SESSION['brukernavn']= $brukernavn;
 
 include 'config.php';
 
@@ -24,6 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $stmt = $conn->prepare("INSERT INTO brukere (brukernavn, passord_hash) VALUES (?, ?)");
             $stmt->bind_param("ss", $brukernavn, $hash);
             if ($stmt->execute()) {
+                $_SESSION['brukernavn'] = $brukernavn;
                 header("Location: loggetinn.php");
                 exit;
             } else {
@@ -44,6 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>Registrer</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
     <h2>Registrer deg</h2>
