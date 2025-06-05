@@ -30,3 +30,8 @@ text-align: center;
     display: flex;
     justify-content: center;
 }
+
+#login{
+    display: flex;
+    justify-content: center;
+}

@@ -30,6 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+<div id="login">
     <form method="post">
         <h2>Logg inn</h2>
         <label for="brukernavn">Brukernavn:</label><br>
@@ -38,5 +39,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="password" name="passord" required><br><br>
         <input type="submit" value="Logg inn">
     </form>
+</div>
 </body>
 </html>
