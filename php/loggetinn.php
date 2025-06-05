@@ -5,7 +5,7 @@ session_start();
 <html lang="no">
 <head>
     <meta charset="UTF-8">
-    <title>Logget inn</title>
+    <title>Din Havgløtt-side</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>

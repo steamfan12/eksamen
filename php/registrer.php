@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="no">
 <head>
     <meta charset="UTF-8">
-    <title>Registrer</title>
+    <title>Lag en Havgløtt-konto</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
