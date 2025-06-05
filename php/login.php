@@ -30,10 +30,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+    <h2>Logg inn</h2>
+            <?php include 'header.php';?>
 <div id="login">
     <form method="post">
-        <h2>Logg inn</h2>
-        <?php include 'header.php';?>
         <label for="brukernavn">Brukernavn:</label><br>
         <input type="text" name="brukernavn" required><br><br>
         <label for="passord">Passord:</label><br>
