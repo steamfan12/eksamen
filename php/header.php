@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>header</title>
 </head>
 <body>
     <header>
         <ul>
             <a href="index.php">Hjem</a>
-            <a href="attraksjoner.php">attraksjoner</a>
-            <a href="login.php">login</a>
-            <a href="registrer.php">register</a>
+            <a href="attraksjoner.php">Attraksjoner</a>
+            <a href="login.php">Logg inn</a>
+            <a href="registrer.php">Registrer</a>
         </ul>
     </header>
 </body>
