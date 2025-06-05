@@ -7,7 +7,7 @@
 </head>
 <body>
     <div id="container">
-        <h2>Havgløtt camping</h2>
+        
     </div>
 </body>
 </html>
