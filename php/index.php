@@ -7,7 +7,7 @@
 </head>
 <body>
     <div id="container">
-        
+        nettside som heter index
     </div>
 </body>
 </html>
