@@ -48,6 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <h2>Registrer deg</h2>
+<div id="register">
     <form method="post" action="">
         <label for="brukernavn">Brukernavn:</label><br>
         <input type="text" id="brukernavn" name="brukernavn" required><br><br>
@@ -55,5 +56,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="password" id="passord" name="passord" required><br><br>
         <input type="submit" value="Registrer">
     </form>
+</div>
 </body>
 </html>
