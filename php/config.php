@@ -1,16 +1,13 @@
 <?php
+$host = '127.0.0.1';
+$user = 'root';
+$pass = 'root'; // eller ditt faktiske passord
+$db   = 'camping_db';
+$port = 3306;
 
-$DB_HOST = '127.0.0.1';
-$DB_PORT = 3306;          
-$DB_USER = 'root';
-$DB_PASS = 'root';
-$DB_NAME = 'camping_db';  
+$conn = new mysqli($host, $user, $pass, $db, $port);
 
-$mysqli = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME, $DB_PORT);
-
-
-if ($mysqli->connect_error) {
-    die("Tilkobling feilet: " . $mysqli->connect_error);
+if ($conn->connect_error) {
+    die("Tilkoblingsfeil: " . $conn->connect_error);
 }
-
 ?>
