@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-<div id="container">
     <h2>Attraksjoner</h2>
     <?php include 'header.php';?>
+<div id="container">
+
     <div>
         <h1>Attraksjonene våre</h1>
         
