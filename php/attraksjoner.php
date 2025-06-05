@@ -23,7 +23,7 @@
     if ($result->num_rows > 0) {
   
     while($row = $result->fetch_assoc()) {
-    echo "<div id="attraksjoner">";
+    echo "<div id=attraksjoner>";
     echo "<h2>" . $row["navn"] . "</h2>";
     echo "<p>" . $row["beskrivelse"] . "</p>";
     echo "<p>Pris: " . $row["pris"] . " kr</p>";
