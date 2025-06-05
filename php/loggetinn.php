@@ -1,5 +1,8 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <title>Logget inn</title>
@@ -8,7 +11,7 @@
 <body>
     <div id="container">
         <h2>
-            Hei (Navn), nå er du logget inn.
+            Hei <?php echo htmlspecialchars($_SESSION['brukernavn'] ?? ''); ?>, nå er du logget inn.
         </h2>
     </div>
 </body>

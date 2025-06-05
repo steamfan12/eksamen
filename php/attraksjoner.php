@@ -19,7 +19,7 @@
     <?php 
     include 'config.php';
     $sql = "SELECT id, navn, beskrivelse, pris, bilde_sti FROM attraksjoner";
-    $result = $mysqli->query($sql);
+    $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
   
