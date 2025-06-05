@@ -28,7 +28,7 @@
     echo "<h2>" . $row["navn"] . "</h2>";
     echo "<p>" . $row["beskrivelse"] . "</p>";
     echo "<p>Pris: " . $row["pris"] . " kr</p>";
-    echo "<img src='../" . $row["bilde_sti"] . "' alt='" . $row["navn"] . "' style='width:200px'><br>";
+    echo "<img src='../" . $row["bilde_sti"] . "' alt='" . $row["navn"] . "' style='width:400px'><br>";
     echo "</div><hr>";
   }
 } else {
