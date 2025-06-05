@@ -11,6 +11,7 @@
             <li><a href="index.php">Hjem</a></li>
             <li><a href="attraksjoner.php">attraksjoner</a></li>
             <li><a href="login.php">login</a></li>
+            <li><a href="registrer.php">register</a></li>
         </ul>
     </header>
 </body>
