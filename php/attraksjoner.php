@@ -11,7 +11,7 @@
     <h2>Attraksjoner</h2>
     <?php include 'header.php';?>
     <div>
-        <h3>Attraksjonene våre</h3>
+        <h1>Attraksjonene våre</h1>
         
     </div>
     <div>
@@ -23,7 +23,7 @@
     if ($result->num_rows > 0) {
   
     while($row = $result->fetch_assoc()) {
-    echo "<div>";
+    echo "<div id="attraksjoner">";
     echo "<h2>" . $row["navn"] . "</h2>";
     echo "<p>" . $row["beskrivelse"] . "</p>";
     echo "<p>Pris: " . $row["pris"] . " kr</p>";
