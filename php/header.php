@@ -8,10 +8,10 @@
 <body>
     <header>
         <ul>
-            <li><a href="index.php">Hjem</a></li>
-            <li><a href="attraksjoner.php">attraksjoner</a></li>
-            <li><a href="login.php">login</a></li>
-            <li><a href="registrer.php">register</a></li>
+            <a href="index.php">Hjem</a>
+            <a href="attraksjoner.php">attraksjoner</a>
+            <a href="login.php">login</a>
+            <a href="registrer.php">register</a>
         </ul>
     </header>
 </body>
