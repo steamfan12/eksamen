@@ -13,7 +13,7 @@ session_start();
         <h2>
             Hei <?php echo htmlspecialchars($_SESSION['brukernavn'] ?? ''); ?>, nå er du logget inn.
         </h2>
-           <?php include 'header.php'?>
     </div>
+    <?php include 'header.php'?>
 </body>
 </html>
